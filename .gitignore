@@ -1,0 +1,36 @@
+# CMake build outputs
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# vcpkg
+vcpkg_installed/
+
+# GDB history
+.gdb_history
+
+# Core dumps
+core
+core.*
+*.core
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.dylib
+*.exe
